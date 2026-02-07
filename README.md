@@ -1,19 +1,17 @@
 ## 📦 Project Assets (Large Files)
 
-Due to the large file size (6 GB), the main project data is hosted on Google Drive. This archive contains the Unity assets and 360-degree video files required for the project.
+Due to the large file size (4.6 GB), the main project data is hosted on Google Drive. This archive contains the Unity assets and 360-degree video files required for the project.
 
 ### 📥 Download Link
-* **File:** [Download Project Assets (6 GB)](https://drive.google.com/file/d/1W8zgewI7UTZEs8fLC88k4MdzNqjVdyZu/view?usp=sharing)
+* **File:** [Download pds.zip (4.6 GB)](https://drive.google.com/file/d/1W8zgewI7UTZEs8fLC88k4MdzNqjVdyZu/view?usp=sharing)
+
+> **Note:** Because the file is larger than 100 MB, Google Drive will show a message saying it "cannot scan this file for viruses." This is normal for large archives. Click **"Download anyway"** to proceed.
 
 ### 🛡️ File Integrity Verification
-To ensure your download did not crash or corrupt, you can verify the file using the SHA-256 checksum.
+To ensure your download did not crash or corrupt, please verify the file using the SHA-256 checksum below.
 
 **Expected Hash:** `[PASTE_YOUR_HASH_HERE]`
 
 #### How to verify:
-* **Windows:** Open PowerShell and run: 
-  `Get-FileHash .\path_to_file.zip -Algorithm SHA256`
-* **macOS/Linux:** Open Terminal and run: 
-  `shasum -a 256 path_to_file.zip`
-
-The resulting code should match the "Expected Hash" above exactly.
+* **Windows (PowerShell):** `Get-FileHash .\pds.zip -Algorithm SHA256`
+* **macOS/Linux (Terminal):** `shasum -a 256 pds.zip`
